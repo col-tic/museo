@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Descripción optimizada para SEO de tu sitio.">
+<meta name="keywords" content="articles, hugo, blog">
+<meta name="author" content="x">
+<title>Cuttlefish | azulaenortha</title>
+
+
+<link rel="stylesheet" href="../../css/bundle.min.54d1d131f345f8e9163d45841c8d7b1ee6fcb660462fb5b4b4d22284a6d345f6.css" integrity="sha256-VNHRMfNF&#43;OkWPUWEHI17Hub8tmBGL7W0tNIihKbTRfY=">
+
+<link rel="icon" href="../../favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+    <div id="preloader" class="copo-nieve">
+  e
+</div>
+
+<script>
+  document.body.classList.add('lock-scroll');
+
+  const preloader = document.getElementById('preloader');
+
+  
+  preloader.style.fontSize = '120px';   
+  preloader.style.color = '#ffffff';    
+  preloader.style.lineHeight = '1';
+  preloader.style.textAlign = 'center';
+
+  const startTime = Date.now();
+
+  window.addEventListener('load', function() {
+    const minDuration = 1000;
+    const elapsed = Date.now() - startTime;
+    const remaining = minDuration - elapsed;
+
+    const hidePreloader = () => {
+      document.body.classList.remove('lock-scroll');
+      preloader.classList.add('hidden');
+      setTimeout(() => preloader.remove(), 500);
+    };
+
+    if (remaining > 0) {
+      setTimeout(hidePreloader, remaining);
+    } else {
+      hidePreloader();
+    }
+  });
+</script>
+
+
+  <header>
+    <div class="title">
+<h1>
+    <a href="../../index.html" rel="home" aria-label="Go to homepage">
+      azulaenortha <span class="copo-nieve" >e</span>
+    </a>
+</h1>
+</div>
+  <nav class="navbar" aria-label="Main navigation">
+    <ul class="lista">
+      
+        
+          <li><a class="text-navbar" href="../../about/index.html">about</a></li>
+        
+          <li><a class="text-navbar" href="../../collection/index.html">gallery</a></li>
+        
+          <li><a class="text-navbar" href="../../shop/index.html">shop</a></li>
+        
+      
+    </ul>    
+  </nav>
+
+
+
+
+  </header>
+  <main>
+    
+  
+      
+    <div class="masonry-grid">
+      
+        <div class="masonry-item">
+          <a href="../../art/insight/index.html">
+            <div class="image-wrapper">
+              <div class="image-container">
+                
+                  <img src="../../art/insight/insight.webp" alt="Insight">
+                
+                <div class="overlay"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+    </div>
+  
+
+  <style>
+    .masonry-grid {
+      column-count: 3;
+      column-gap: 1rem;
+    }
+    @media (max-width: 1024px) {
+      .masonry-grid {
+        column-count: 3;
+      }
+    }
+    @media (max-width: 900px) {
+      .masonry-grid {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .masonry-grid {
+        column-count: 1;
+      }
+    }
+
+    .masonry-item {
+      background: white;
+      margin-bottom: 1rem;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
+      break-inside: avoid;
+    }
+
+    .image-wrapper {
+      position: relative;
+    }
+
+    .image-container {
+      position: relative;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+
+  </style>
+
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>
